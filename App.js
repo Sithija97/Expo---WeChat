@@ -11,7 +11,7 @@ const AppNavigator = createStackNavigator(
     Chat: ChatScreen
   },
   {
-    headerMode:'none'
+    // headerMode:'none'
   }
 ); 
 
