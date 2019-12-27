@@ -2,14 +2,12 @@ import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
 
 //components
-import Login from './components/Login';
-import Signup from './components/SignUp';
+import Main from './components/Main';
 import Chat from './components/Chat';
 
 const AppNavigator = createStackNavigator(
   {
-    Login:Login,
-    Signup:Signup,
+    Main:Main,
     Chat: Chat
   },
   {
