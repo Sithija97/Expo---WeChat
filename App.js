@@ -2,12 +2,11 @@ import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
 
 //components
-import Chat from './'
+import Chat from './components/Chat';
 
 const AppNavigator = createStackNavigator(
   {
-    Login: LoginScreen,
-    Chat: ChatScreen
+    Chat: Chat
   },
   {
     // headerMode:'none'
