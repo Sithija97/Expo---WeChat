@@ -2,8 +2,8 @@ import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
 
 //components
-import Main from './components/Main';
-import Chat from './components/Chat';
+import Main from './comp.previous 0.3/Main';
+import Chat from './comp.previous 0.3/Chat';
 
 const AppNavigator = createStackNavigator(
   {
